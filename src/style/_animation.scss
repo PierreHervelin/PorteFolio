@@ -1,0 +1,19 @@
+@keyframes headerlineAnim {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes opacity0to1 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}

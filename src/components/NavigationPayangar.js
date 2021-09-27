@@ -6,7 +6,9 @@ const NavigationPayangar = () => {
         <div className='navigation-payangar'>
             <NavLink to='/' exact className='hover'
             activeClassName='switch-active'>
-                <span className='icon-chevron_left'></span>
+                <div id='leftside'>
+                    <span className='icon-chevron_left'></span>
+                </div>
             </NavLink>
         </div>
     );

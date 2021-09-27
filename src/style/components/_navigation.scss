@@ -1,8 +1,26 @@
 .hover{
     color: white;
     text-decoration: none;
+    transition: 0.3s;
+    opacity: 0.3;
+    font-size: 2em;
+}
+.hover:hover{
+    opacity: 1;
 }
 .switch-active{
     color: #000;
     transition: 0.5s;
+}
+
+#leftside, #rightside{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+#leftside{
+    left:1%;
+}
+#rightside{
+    right:0%;
 }

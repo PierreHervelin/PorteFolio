@@ -6,7 +6,9 @@ const NavigationHome = () => {
         <div className='navigation-home'>
             <NavLink to='/payangar' exact className='hover' 
             activeClassName='switch-active'>
-                <span className='icon-chevron_right'></span>
+                <div id='rightside'>
+                    <span className='icon-chevron_right'></span>
+                </div>
             </NavLink>
         </div>
     );

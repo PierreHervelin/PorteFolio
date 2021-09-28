@@ -17,3 +17,14 @@
         opacity: 1;
     }
 }
+@keyframes navMoveRight {
+    0%{
+        right: 0%;
+    }
+    50%{
+        right: 0.2%;
+    }
+    100%{
+        right: 0%;
+    }
+}

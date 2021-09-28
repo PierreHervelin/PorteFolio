@@ -6,14 +6,10 @@ const Header = (props) => {
     const header=headersContent[props.headerNumber];
 
     useEffect(() => {
-        const subtitle=document.querySelectorAll('.subtitle');
+        const subtitle=document.getElementById(header.subtitle);
         console.log(subtitle);
         setTimeout(() => {
-            for(var i in subtitle){
-                if(!isNaN(i)){
-                    subtitle[i].style.opacity=1;
-                }
-            }
+            subtitle.style.opacity=1;
         }, 3400);
     }, [])
 
@@ -21,7 +17,7 @@ const Header = (props) => {
         <div className='header'>
             <h1>{header.title}</h1>
             <hr id='headerline'/>
-            <h2 className='subtitle'>{header.subtitle}</h2>
+            <h2 id={header.subtitle}>{header.subtitle}</h2>
         </div>
     );
 };

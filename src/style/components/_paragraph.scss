@@ -1,6 +1,6 @@
 .paragraph{
-    margin-left: 10%;
-    width: 39%;
+    margin-left: 5%;
+    width: 42%;
     font-family: 'medium';
     font-size: 0.9em;
     font-weight: normal;
@@ -8,4 +8,5 @@
     text-align: justify;
     opacity: 0;
     animation: 3s ease-in 1s 1 opacity0to1;
+    text-shadow: 0.1em 0.1em 0px black;
 }

@@ -1,0 +1,43 @@
+#competence{
+    justify-content: flex-start;
+    width: 100%;
+}
+#competence h2{
+    text-align: end;
+    margin-right: 5%;
+    opacity: 0;
+    animation: 3s ease-out 0.5s 1 opacity0to1;
+}
+
+#competenceline{
+    align-self: flex-end;
+    animation: 2s ease-out 0s 1 headerlineAnim;
+    width: 60%;
+}
+.skillcard{
+    text-align: center;
+}
+.skillcard h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+.skill{
+    font-family: 'thin';
+    font-weight: 500;
+    list-style: none;
+    font-size: 0.9em;
+}
+#skillcard-container{
+    opacity: 0;
+    width: 60%;
+    margin-top: 3%;
+    animation: 3s ease-in 1s 1 opacity0to1;
+    margin-bottom: 2%;
+
+}
+#skillcard-container .vertical-line{
+    border-left:1px solid #555 ;
+    height: 105%;
+}

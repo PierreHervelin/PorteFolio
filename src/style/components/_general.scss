@@ -3,3 +3,86 @@
     flex-flow: column nowrap;
     justify-content: flex-start;
 }
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.flexend{
+    justify-content: flex-end;
+}
+.spacearound{
+    justify-content: space-evenly;
+}
+
+.vertical-line{
+    width: 0px;
+    border-left:1px solid white;
+    height: 100%;
+}
+.borduretop{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(black,transparent 50%);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
+.bordurebottom{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(transparent 50%,black);
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+}
+.delimit{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.delimit h2{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+.page{
+    width: 95vw;
+    height: 100vh;
+    min-height: 800px;
+    margin: auto;
+}
+.verticalaligntext{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.circle{
+}
+.circleout{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #222;
+    z-index: 0;
+}
+.circlein{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    z-index: 1;
+}
+.right-circle{
+    position: fixed;
+    top:50%; right: 0%;
+    transform: translate(+50%,-50%);
+    width: 100px;
+    height: 100px;
+}

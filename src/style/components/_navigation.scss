@@ -13,14 +13,14 @@
     transition: 0.5s;
 }
 
-#leftside, #rightside{
-    position: absolute;
+.leftside, .rightside{
+    position: fixed;
     top: 50%;
     transform: translate(-50%);
 }
-#leftside{
-    left:1%;
+.leftside{
+    left:2.5%;
 }
-#rightside{
+.rightside{
     right:0%;
 }

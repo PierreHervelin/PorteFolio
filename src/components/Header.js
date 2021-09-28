@@ -7,7 +7,6 @@ const Header = (props) => {
 
     useEffect(() => {
         const subtitle=document.getElementById(header.subtitle);
-        console.log(subtitle);
         setTimeout(() => {
             subtitle.style.opacity=1;
         }, 3400);

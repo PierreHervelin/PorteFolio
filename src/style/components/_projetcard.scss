@@ -1,0 +1,102 @@
+.projetcontainer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left:50%;
+    transform: translate(-50%);
+}
+
+.projet{
+    position: relative;
+    width: 29%;
+    min-width: 350px;
+    margin-top: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.projetcard{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.projet h4, .projet h3{
+    text-align: center;
+}
+.imgprojet{
+    position: relative;
+    min-width: 300px;
+    min-height: 280px;
+    width: 100%;
+}
+#projet0,#projet1,#projet2{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    min-width: 280px;
+    height: 50%;
+    min-height: 250px;
+    overflow: hidden;
+}
+.description{
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 5%;
+    width: 90%;
+    height: 100%;
+    opacity: 0;
+    background:rgba(0, 0, 0, 0.9);
+    transition: all 0.5s;
+}
+.description:hover{
+    opacity: 1;
+}
+.description a{
+    position: absolute;
+    bottom: 11%;
+    left:50%;
+    transform: translate(-50%);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    background: white;
+    transition: all 0.5s;
+}
+.description a:hover{
+    color: white;
+    background: black;
+}
+#projet0{
+    background-image: url('../../assets/img/projet0.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#projet1{
+    background-image: url('../../assets/img/projet1.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#projet2{
+    background-image: url('../../assets/img/projet2.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projetinfos{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.projetinfos p{
+    font-family: 'thin';
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.projetinfos .row{
+    justify-content: center;
+}

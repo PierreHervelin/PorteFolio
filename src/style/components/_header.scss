@@ -23,3 +23,20 @@ h1{
     animation: 2s ease-out 0s 1 headerlineAnim;
     width: 60%;
 }
+
+@media (max-width:1000px) {
+    h1{
+        text-align: center;
+        font-size: 1.8em;
+        margin: 0;
+    }
+    #PROFIL{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    #headerline{
+        animation: 2s ease-out 0s 1 headerlineAnimMobile;
+        width: 100%;
+    }
+}

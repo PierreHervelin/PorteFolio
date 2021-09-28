@@ -9,7 +9,7 @@ const App=()=>{
   return(
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route exact path='/project-1' component={Beaproject}/>
+      <Route exact path='/projectbea' component={Beaproject}/>
       <Route exact path='/contact' component={Contact}/>
       <Route exact path='/payangar' component={Payangar}/>
       <Redirect to='/'/>

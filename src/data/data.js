@@ -59,7 +59,7 @@ export const ProjetContent=[
         state:'En développement',
         seeMore:'Voir github du projet',
         link:'https://github.com/ophelie-rochefeuille/Docker_LPDW',
-        imgsrc:'../assets/img/projet0.jpg'
+        imgsrc:'projet0'
     },
     {
         id:1,
@@ -72,7 +72,7 @@ export const ProjetContent=[
         state:'En développement',
         seeMore:'Voir github du projet',
         link:'https://github.com/PierreHervelin/labyrinthe',
-        imgsrc:'../assets/img/projet1.jpg'
+        imgsrc:'projet1'
     },
     {
         id:2,
@@ -85,7 +85,7 @@ export const ProjetContent=[
         description:"Projet réalisé lors de mon stage de fin de DUT au BEA (bureau d'enquête et d'analyse pour la sécurité de l'aviation civile). Cette interface permet de créer, à partir d'un logiciel créé en interne (LEA, sous matlab), une planche composé d'un ou plusieurs graphes eux même composés d'un ou plusieurs paramètre de vol. Cette interface communique avec LEA via le protocole Websocket et récupère ainsi tous les paramètres de vol d'un projet.",
         state:'Projet fini',
         seeMore:'Voir plus',
-        link:'/Beaproject',
-        imgsrc:'../assets/img/projet2.jpg'
+        link:'/projectbea',
+        imgsrc:'projet2'
     }
 ]

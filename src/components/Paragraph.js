@@ -7,7 +7,6 @@ const Paragraph = (props) => {
 
     useEffect(() => {
         const content=document.querySelectorAll('.paragraph');
-        console.log(content);
         setTimeout(() => {
             for(var i in content){
                 if(!isNaN(i)){

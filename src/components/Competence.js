@@ -5,7 +5,7 @@ const Competence = (props) => {
     const [competences,t]=useState(CompetenceContent);
     const competence=competences[props.competenceNumber];
 
-    const list= competence.skills.map((item) =>  <li className='skill'>{item}</li>);
+    const list= competence.skills.map((item) =>  <li key={item} className='skill'>{item}</li>);
 
     return list;
 };

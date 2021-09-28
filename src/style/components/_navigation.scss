@@ -4,6 +4,7 @@
     transition: 0.3s;
     opacity: 0.3;
     font-size: 2em;
+    z-index: 99;
 }
 .hover:hover{
     opacity: 1;
@@ -23,4 +24,10 @@
 }
 .rightside{
     right:0%;
+}
+
+@media (max-width:1000px) {
+    .rightside{
+        right: -5%;
+    }
 }

@@ -8,7 +8,7 @@ const Skillcard = (props) => {
     return (
         <div style={{position:'relative'}} className='skillcard'>
             <h3>{competence.title}</h3>
-            <ul className='col mid'>
+            <ul className='col'>
                 <Competence competenceNumber={props.competenceNumber}/>
             </ul>
         </div>

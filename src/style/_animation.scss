@@ -6,6 +6,14 @@
         width: 60%;
     }
 }
+@keyframes headerlineAnimMobile {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
 @keyframes opacity0to1 {
     0%{
         opacity: 0;

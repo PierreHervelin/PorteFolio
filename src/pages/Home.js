@@ -9,12 +9,10 @@ import Projet from "../components/Projet";
 const Home=()=>{
     useEffect(() => {
         const subtitle=document.querySelector('#competence h2');
-        console.log(subtitle);
         setTimeout(() => {
             subtitle.style.opacity=1;
         }, 3400);
         const skillContainer=document.querySelector('#skillcard-container');
-        console.log(skillContainer);
         setTimeout(() => {
             skillContainer.style.opacity=1;
         }, 3900);
@@ -23,12 +21,13 @@ const Home=()=>{
         <main>
             <div className='borduretop'></div>
             <div className='home'>
-                <NavigationHome/>
                 <div className='page col spacearound'>
                     <div className='col' style={{position:"relative"}}>
                         <Header id='head' headerNumber='0'/>
-                        <Paragraph paragraphNumber='0'/>
-                        <Paragraph paragraphNumber='1'/>
+                        <div className='paragraph-container'>
+                            <Paragraph paragraphNumber='0'/>
+                            <Paragraph paragraphNumber='1'/>
+                        </div>
                     </div>
                     <div className='row flexend' style={{width:'100%'}}>
                         <div className='col' id='competence'>
@@ -49,8 +48,8 @@ const Home=()=>{
                         <h2>PROJETS</h2>
                     </div>
                 </div>
-                <div className='page col spacearound'>
-                    <div className='row'>
+                <div className='page col flexcenter'>
+                    <div className='projetcontainer row'>
                         <Projet numProjet='0'/>
                         <Projet numProjet='1'/>
                         <Projet numProjet='2'/>
@@ -58,6 +57,7 @@ const Home=()=>{
                 </div>
             </div>
             <div className='bordurebottom'></div>
+            <NavigationHome/>
         </main>
     );
 };

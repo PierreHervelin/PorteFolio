@@ -19,10 +19,16 @@
         align-items: center;
         align-content: center;
         width: 100%;
+        margin-bottom: 5%;
     }
     .paragraph{
         margin: 0;
         margin-bottom: 1%;
         width: 80%;
+    }
+}
+@media (min-width:1700px) {
+    .paragraph{
+        font-size: 1em;
     }
 }

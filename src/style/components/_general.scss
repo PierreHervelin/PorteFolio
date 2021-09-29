@@ -57,7 +57,6 @@
     vertical-align: middle;
 }
 .page{
-    overflow-y: scroll;
     position: relative;
     width: 95vw;
     height: 100vh;
@@ -73,6 +72,9 @@
 
 @media (max-width:1000px) {
     .page{
-        overflow-y: visible;
+        min-height: 100vh;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 }

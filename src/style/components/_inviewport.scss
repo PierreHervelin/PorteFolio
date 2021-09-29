@@ -1,0 +1,15 @@
+[data-inviewport='hr25%'].is-inViewport{
+    width: 25%;
+}
+[data-inviewport='opacity1'].is-inViewport{
+    opacity: 1;
+}
+[data-inviewport='hr60%'].is-inViewport{
+    width: 60%;
+}
+
+@media (max-width:1000px) {
+    [data-inviewport='hr60%'].is-inViewport{
+        width: 90%;
+    }
+}

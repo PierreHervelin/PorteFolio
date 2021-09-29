@@ -46,6 +46,7 @@
     #competence h2{
         text-align: center;
         margin: 0;
+        font-size: 1.5em;
     }
     #competenceline{
         width: 100%;
@@ -56,5 +57,14 @@
         width: 100%;
         margin: 0;
         margin-top: 5%;
+    }
+    .skillcard h3{
+        font-size: 1em;
+    }
+}
+
+@media (min-width:1700px) {
+    .skill{
+        font-size: 1em;
     }
 }

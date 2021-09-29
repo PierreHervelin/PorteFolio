@@ -1,10 +1,15 @@
 import react from "react";
+import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Contact=()=>{
     return(
-        <div>
-            Contact
-        </div>
+        <main>
+            <div className='page'>
+                <ContactForm/>
+            </div>
+            <Footer/>
+        </main>
     );
 };
 

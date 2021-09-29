@@ -5,6 +5,7 @@ import Paragraph from "../components/Paragraph";
 import logo from '../assets/img/photoprofil.jpg';
 import Skillcard from "../components/Skillcard";
 import Projet from "../components/Projet";
+import Footer from "../components/Footer";
 
 const Home=()=>{
     useEffect(() => {
@@ -48,13 +49,14 @@ const Home=()=>{
                         <h2>PROJETS</h2>
                     </div>
                 </div>
-                <div className='page col flexcenter'>
-                    <div className='projetcontainer row'>
+                <div className='page col flexcenter pageprojet'>
+                    <div className='projetcontainer row flexcenter'>
                         <Projet numProjet='0'/>
                         <Projet numProjet='1'/>
                         <Projet numProjet='2'/>
                     </div>
                 </div>
+                <Footer/>
             </div>
             <div className='bordurebottom'></div>
             <NavigationHome/>

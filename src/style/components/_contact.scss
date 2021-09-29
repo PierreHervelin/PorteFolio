@@ -1,0 +1,103 @@
+input, textarea{
+    
+    background: black;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    transition: all 0.5s;
+    opacity: 0;
+    font-size: 1.1em;
+    margin-bottom: 4%;
+    border-radius: 0;
+}
+input:hover,
+textarea:hover{
+    background: #111;
+}
+input:active,input:-webkit-autofill:active,
+textarea:active{
+    background: white;
+}
+input:focus-visible, input:-webkit-autofill:focus,
+textarea:focus-visible{
+    outline: none;
+}
+input:-webkit-autofill{
+    -webkit-box-shadow:0 0 0 30px;
+}
+.form-content .row input:first-child{
+    position: absolute;
+    width: 40%;
+    left:0;
+}
+.form-content .row input:last-child{
+    width: 40%;
+}
+
+#message{
+    height: 50%;
+    min-height: 200px;
+}
+
+#form-message{
+    align-self: center;
+    color: red;
+    opacity: 0;
+    display: none;
+}
+
+.error{
+    animation: 4s infinite blinkRedInput;
+}
+
+.contact-form hr{
+    width: 0;
+    align-self: center;
+    transition: all 1s;
+}
+.contactTitle{
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+
+#submit{
+    color: black;
+    background: white;
+    padding: 5px;
+    border: none;
+    border-radius: 0;
+    align-self: center;
+    cursor: pointer;
+}
+#submit:hover{
+    color: white;
+    background: black;
+}
+
+
+.contact-form{
+    width: 100%;
+    height: 100%;
+}
+
+.form-content{
+    width: 40%;
+    height: 100%;
+    align-self: center;
+}
+.contact-form .row{
+    position: relative;
+    width: 100%;
+}
+.contact-form h2{
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+    margin-bottom: 1%;
+}
+
+@media (max-width:1000px) {
+    .form-content{
+        width: 90%;
+    }
+}

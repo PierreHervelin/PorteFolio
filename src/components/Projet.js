@@ -6,7 +6,7 @@ const Projet = (props) => {
     const projet=projets[props.numProjet];
     const skills=projet.skills.map((item)=> <p key={item}>{item}</p>);
     return (
-        <div className='projet'>
+        <div className='projet' data-inviewport='opacity1'>
             <div className='projetcard col'>
                 <h3>PROJET {props.numProjet}</h3>
                 <h4>{projet.title}</h4>

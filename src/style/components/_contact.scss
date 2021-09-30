@@ -3,7 +3,7 @@ input, textarea{
     background: black;
     border: none;
     padding-bottom: 5px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #555;
     transition: all 0.5s;
     opacity: 0;
     font-size: 1.1em;
@@ -20,6 +20,7 @@ textarea:active{
 }
 input:focus-visible, input:-webkit-autofill:focus,
 textarea:focus-visible{
+    border-bottom: 1px solid white;
     outline: none;
 }
 input:-webkit-autofill{
@@ -47,15 +48,15 @@ input:-webkit-autofill{
 }
 
 .error{
-    animation: 4s infinite blinkRedInput;
+    border-bottom: 1px solid red;
 }
 
-.contact-form hr{
+.title hr{
     width: 0;
     align-self: center;
     transition: all 1s;
 }
-.contactTitle{
+.title{
     margin-bottom: 8%;
     margin-top: 2%;
 }
@@ -89,7 +90,7 @@ input:-webkit-autofill{
     position: relative;
     width: 100%;
 }
-.contact-form h2{
+.title h2{
     text-align: center;
     opacity: 0;
     transition: all 1s;

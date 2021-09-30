@@ -8,7 +8,6 @@ const Contact=()=>{
             <div className='page'>
                 <ContactForm/>
             </div>
-            <Footer/>
         </main>
     );
 };

@@ -100,7 +100,7 @@ const ContactForm = () => {
     };
     return (
         <form className='contact-form col'>
-            <div className='col contactTitle'>
+            <div className='col title'>
                 <h2 data-inviewport='opacity1'>CONTACTEZ MOI</h2>
                 <hr data-inviewport='hr60%'/>
             </div>

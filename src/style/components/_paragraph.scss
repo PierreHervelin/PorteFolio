@@ -10,6 +10,10 @@
     animation: 3s ease-in 1s 1 opacity0to1;
     text-shadow: 0.1em 0.1em 0px black;
 }
+.paragraph-container .paragraph{
+    align-self: center;
+    margin: 0;
+}
 
 @media (max-width:1000px) {
     .paragraph-container{

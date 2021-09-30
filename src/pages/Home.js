@@ -59,7 +59,6 @@ const Home=()=>{
                 <Footer/>
             </div>
             <div className='bordurebottom'></div>
-            <NavigationHome/>
         </main>
     );
 };

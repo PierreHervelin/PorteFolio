@@ -19,6 +19,10 @@ export const ParagraphContent=[
     {
         id:1,
         content:"Mon esprit logique et créatif me permet de me sentir autant développeur back-end que front-end. J'ai découvert le domaine de l'informatique et plus spécialement celui de la programmation lors de la création de mes premiers robots. C'est pourquoi, après l'obtention d'un DUT informatique j'entre dans une licence professionnelle en développement web et objet connecté."
+    },
+    {
+        id:2,
+        content:"N'ayant plus accès à ce projet, il m'est impossible de présenter le code. Cependant, voici à quoi il ressemblait et ses fonctionnalités."
     }
 ]
 

@@ -1,6 +1,54 @@
-img{
-    animation: 3s ease-out 0s 1 opacity0to1;
-    position: absolute;
-    z-index: 0;
-    width: 100%;
+.pres-bea{
+    display: none;
+    margin-bottom: 10%;
+}
+
+.pres-bea img{
+    width: 70%;
+    align-self: center;
+}
+.pres-bea h3{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.pres-bea p{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-family: 'thin';
+}
+.pres-bea .paragraph{
+    animation: none;
+}
+.pres-bea a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 5px;
+    transition: all 1s;
+}
+.pres-bea a:hover{
+    color: white;
+    background: black;
+}
+
+.beadiapo{
+    align-self: center;
+    animation: 25s infinite diapoBea;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.beadiapo img{
+    visibility: hidden;
+}
+
+@media (max-width:1000px) {
+    .pres-bea img{
+        width: 80%;
+    }
 }

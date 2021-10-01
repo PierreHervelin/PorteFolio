@@ -2,7 +2,6 @@ import react,{useEffect} from "react";
 import NavigationHome from "../components/NavigationHome";
 import Header from "../components/Header";
 import Paragraph from "../components/Paragraph";
-import logo from '../assets/img/photoprofil.jpg';
 import Skillcard from "../components/Skillcard";
 import Projet from "../components/Projet";
 import Footer from "../components/Footer";

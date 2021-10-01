@@ -23,6 +23,10 @@ export const ParagraphContent=[
     {
         id:2,
         content:"N'ayant plus accès à ce projet, il m'est impossible de présenter le code. Cependant, voici à quoi il ressemblait et ses fonctionnalités."
+    },
+    {
+        id:3,
+        content:"L'objectif de ce projet était la réalisation pas à pas d'un prototype de test,faisant aussi office d'étude de faisabilité. Ce prototype devait permettre aux enquêteurs spécialisés du département Technique d'utiliser une visualisation web des paramètres de vol produits par LEA (logiciel créé en interne sous matlab permettant le décodage et l'affichage de paramètres de vol), pour décider si une refonte web était un choix viable ou pas."
     }
 ]
 

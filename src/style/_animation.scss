@@ -110,3 +110,23 @@
         border-bottom: 1px solid black;
     }
 }
+@keyframes diapoBea {
+    0%{
+        background-image: url('../assets/img/bea-interface2.jpg');
+    }
+    20%{
+        background-image: url('../assets/img/bea-interface2-2.jpg');
+    }
+    40%{
+        background-image: url('../assets/img/bea-interface2-3.jpg');
+    }
+    60%{
+        background-image: url('../assets/img/bea-interface2-4.jpg');
+    }
+    80%{
+        background-image: url('../assets/img/bea-interface2-5.jpg');
+    }
+    100%{
+        background-image: url('../assets/img/bea-interface2.jpg');
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PorteFolio/static/css/main.227c8b7b.chunk.css",
+    "main.js": "/PorteFolio/static/js/main.eab3ff74.chunk.js",
+    "main.js.map": "/PorteFolio/static/js/main.eab3ff74.chunk.js.map",
+    "runtime-main.js": "/PorteFolio/static/js/runtime-main.4d8bfc47.js",
+    "runtime-main.js.map": "/PorteFolio/static/js/runtime-main.4d8bfc47.js.map",
+    "static/js/2.28f16eff.chunk.js": "/PorteFolio/static/js/2.28f16eff.chunk.js",
+    "static/js/2.28f16eff.chunk.js.map": "/PorteFolio/static/js/2.28f16eff.chunk.js.map",
+    "index.html": "/PorteFolio/index.html",
+    "static/css/main.227c8b7b.chunk.css.map": "/PorteFolio/static/css/main.227c8b7b.chunk.css.map",
+    "static/js/2.28f16eff.chunk.js.LICENSE.txt": "/PorteFolio/static/js/2.28f16eff.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/PorteFolio/static/media/projet2.39d444c6.JPG",
+    "static/media/bea-interface1.c89f606c.jpg": "/PorteFolio/static/media/bea-interface1.c89f606c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d8bfc47.js",
+    "static/js/2.28f16eff.chunk.js",
+    "static/css/main.227c8b7b.chunk.css",
+    "static/js/main.eab3ff74.chunk.js"
+  ]
+}

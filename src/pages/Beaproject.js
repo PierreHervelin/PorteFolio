@@ -48,6 +48,9 @@ const Beaproject=()=>{
                     <img src={logo2} alt=''/>
                 </div>
                 <p>avec le menu options</p>
+                <div className='paragraph-container col'>
+                    <Paragraph paragraphNumber='4'/>
+                </div>
             </div>
         </main>
     );

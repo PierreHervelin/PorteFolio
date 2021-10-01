@@ -27,6 +27,10 @@ export const ParagraphContent=[
     {
         id:3,
         content:"L'objectif de ce projet était la réalisation pas à pas d'un prototype de test,faisant aussi office d'étude de faisabilité. Ce prototype devait permettre aux enquêteurs spécialisés du département Technique d'utiliser une visualisation web des paramètres de vol produits par LEA (logiciel créé en interne sous matlab permettant le décodage et l'affichage de paramètres de vol), pour décider si une refonte web était un choix viable ou pas."
+    },
+    {
+        id:4,
+        content:"Ce prototype n'avait pas initialement vocation à être conservé. Finalement, cette interface sera mise en pré production au BEA à l'automne pour être testée par les utilisateurs."
     }
 ]
 
@@ -87,6 +91,7 @@ export const ProjetContent=[
         title:'Interface WEB de visualisation de paramètre de vol',
         skills:[
             'JavaScript',
+            'Plotly.js',
             'HTML/CSS',
             'Matlab'
         ],

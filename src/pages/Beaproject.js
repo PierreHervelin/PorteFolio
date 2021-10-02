@@ -28,6 +28,18 @@ const Beaproject=()=>{
             pres.style.animation='2s ease-in 0s 1 opacity0to1';
         }, 2000);
     }, 7000);
+    const inViewport=(entries,observer)=>{
+        entries.forEach(entry=>{
+            entry.target.classList.toggle('is-inViewport',entry.isIntersecting);
+        });
+    };
+    const Obs=new IntersectionObserver(inViewport);
+    const obsOptions={};
+
+    const Els_inViewport=document.querySelectorAll('[data-inviewport]');
+    Els_inViewport.forEach(El=>{
+        Obs.observe(El,obsOptions);
+    });
     return(
         <main>
             <div className='col title'>

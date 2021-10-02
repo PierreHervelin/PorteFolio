@@ -75,7 +75,7 @@ export const ProjetContent=[
     },
     {
         id:1,
-        title:'Fight Club',
+        title:'Jeu du labyrinthe',
         skills:[
             'JavaScript',
             'HTML/CSS'

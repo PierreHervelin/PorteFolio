@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PorteFolio/static/css/main.227c8b7b.chunk.css",
-    "main.js": "/PorteFolio/static/js/main.a3d5a1a6.chunk.js",
-    "main.js.map": "/PorteFolio/static/js/main.a3d5a1a6.chunk.js.map",
+    "main.js": "/PorteFolio/static/js/main.5062f539.chunk.js",
+    "main.js.map": "/PorteFolio/static/js/main.5062f539.chunk.js.map",
     "runtime-main.js": "/PorteFolio/static/js/runtime-main.4d8bfc47.js",
     "runtime-main.js.map": "/PorteFolio/static/js/runtime-main.4d8bfc47.js.map",
     "static/js/2.28f16eff.chunk.js": "/PorteFolio/static/js/2.28f16eff.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4d8bfc47.js",
     "static/js/2.28f16eff.chunk.js",
     "static/css/main.227c8b7b.chunk.css",
-    "static/js/main.a3d5a1a6.chunk.js"
+    "static/js/main.5062f539.chunk.js"
   ]
 }

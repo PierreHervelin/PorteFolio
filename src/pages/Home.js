@@ -7,18 +7,21 @@ import Projet from "../components/Projet";
 import Footer from "../components/Footer";
 
 const Home=()=>{
-    const inViewport=(entries,observer)=>{
-        entries.forEach(entry=>{
-            entry.target.classList.toggle('is-inViewport',entry.isIntersecting);
+    useEffect(() => {
+        const inViewport=(entries,observer)=>{
+            entries.forEach(entry=>{
+                entry.target.classList.toggle('is-inViewport',entry.isIntersecting);
+            });
+        };
+        const Obs=new IntersectionObserver(inViewport);
+        const obsOptions={};
+        
+        const Els_inViewport=document.querySelectorAll('[data-inviewport]');
+        Els_inViewport.forEach(El=>{
+            Obs.observe(El,obsOptions);
         });
-    };
-    const Obs=new IntersectionObserver(inViewport);
-    const obsOptions={};
-
-    const Els_inViewport=document.querySelectorAll('[data-inviewport]');
-    Els_inViewport.forEach(El=>{
-        Obs.observe(El,obsOptions);
-    });
+        console.log('oui');
+    }, [])
     useEffect(() => {
         const subtitle=document.querySelector('#competence h2');
         setTimeout(() => {

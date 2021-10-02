@@ -1,9 +1,24 @@
-import react from "react";
+import react, { useEffect } from "react";
 import Paragraph from "../components/Paragraph";
 import logo from "../assets/img/bea-interface1.jpg";
 import logo2 from "../assets/img/bea-interface2.jpg";
 
 const Beaproject=()=>{
+    useEffect(() => {
+        const inViewport=(entries,observer)=>{
+            entries.forEach(entry=>{
+                entry.target.classList.toggle('is-inViewport',entry.isIntersecting);
+            });
+        };
+        const Obs=new IntersectionObserver(inViewport);
+        const obsOptions={};
+        
+        const Els_inViewport=document.querySelectorAll('[data-inviewport]');
+        Els_inViewport.forEach(El=>{
+            Obs.observe(El,obsOptions);
+        });
+        console.log('oui');
+    }, [])
     document.onclick=()=>{
         let paragraph=document.querySelector('.paragraph-container');
         let pres=document.querySelector('.pres-bea');
